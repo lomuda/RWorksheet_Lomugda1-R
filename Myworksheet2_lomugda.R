@@ -158,12 +158,12 @@ View(Tail_Six)
 
 #10.
 #a.
-Vegetables <- list("Spinach","Brocolli","Pea","Sweet Potatoes","Carrots","Seaweed","Parsley","Onions","Garlic","Red cabbage")
+Vegetables <- list("Letuce","Brocolli","cauliflower","Sweet Potatoes","Carrots","cucumber","Parsley","Onions","Garlic","Cabbage")
 #b
-NewList <- append(Vegetables,c("Asparagus","Sprouts"))
+NewList <- append(Vegetables,c("Pumkin","Beans"))
 NewList
 #c
-NewList <- append(Vegetables,c("Kale","Swiss chard"),after = 5)
+NewList <- append(Vegetables,c("Bell pepper","Tomato"),after = 5)
 NewList
 #d
 NewList <- Vegetables [c(-5, -10, -15)]
